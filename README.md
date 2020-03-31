@@ -8,7 +8,7 @@ This is a GO-based logic-bomb script written by me for the DOE CyberForce compet
 Usage:
 
 1. Change the epoch timestamp in the script. Go to www.epochconverter.com and input the CORRECT execution time in your preferred local time/GMT and replace the epoch stamp by your newly created time----Line-->'if timeNow > newtime'. You can also slice up and change the portNos in this script differently and accoding to your desired usage.
-2. Shoot up the terminal and 'go build logicbomb.go'. Execute---> './logicbomb &'. You can also bind this as a service file inside systemd manually in order to avoid using '&' while executing the file.
+2. Shoot up the terminal and 'go build logicbomb.go'. Execute---> './logicbomb &'. You can also bind this as a service file inside systemd manually in order to avoid using '&' while executing the file. I will post that part later.
 
 3. Place the created binary file into your desired target location path of windows/Linux.
 In Linux,
