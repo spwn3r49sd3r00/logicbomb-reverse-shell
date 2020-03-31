@@ -25,7 +25,7 @@ To Do:
 
 1. Work more on a user based privilege escalation technique.
 2. Find a way to punch a hole through firewall in order to avoid instant blocking of the ports, if any.
-3. Find alternative way to regenerate another ports, in case gets killed by processids.
+3. Find an alternative way to regenerate another ports, in case gets killed by processids.
 
 If you have any questions, please email me directly
 shail.patel@nrel.gov
