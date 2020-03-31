@@ -23,8 +23,10 @@ This shell should be used to maintain foothold/persistence or for post-exploitat
 
 To Do:
 
-Work more on a user based priviledge esclation technique.
+1. Work more on a user based priviledge esclation technique.
+2. Find a way to punch a hole through firewall in order to avoid instant blocking of the ports, if any.
+3. Find alternative way to regenerate another ports, in case gets killed by processids.
 
-If you have any questions, please email me
+If you have any questions, please email me directly
 shail.patel@nrel.gov
 
