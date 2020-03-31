@@ -16,7 +16,7 @@ func ncatSpawnListeners() {
 	portNos:= []int{7864, 7777, 7783, 8348, 8677, 8999}
 	for {
 	timeNow:= time.Now().Unix()
-  //Unix Epoch Timestamp using epochconverter
+  //Unix Epoch Timestamp using epochconverter. Set the epoch number below according to your requirement
 	if timeNow > 1570583580{
 	for _, port := range portNos{
 		if osType == "linux" {
