@@ -1,5 +1,6 @@
 # logicbomb-reverse-shell
 Author: Shail Patel
+
 Description:
 
 This is a GO-based logic-bomb script written by me for the DOE CyberForce competition 2019 to spawn a reverse shell by opening random network ports.
