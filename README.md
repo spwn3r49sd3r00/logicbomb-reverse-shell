@@ -14,6 +14,7 @@ Check whoami, pwd, ls, ifconfig.
 
 Note:
 Initial Machine Access Required: yes
+
 This shell should be used to maintain foothold/persistence or for post-exploitation once an attacker gains initial entry.
 
 To Do:
