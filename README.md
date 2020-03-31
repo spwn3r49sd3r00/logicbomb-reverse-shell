@@ -12,6 +12,8 @@ In Linux,
 4. Open up another terminal and "nc -l 'target_ip' 7864/7777/7783/8348/8677/8999". This will spawn a user shell and you are in!
 Check whoami, pwd, ls, ifconfig.
 
+You can also bind this as a service file in order to avoid using '&' while building the file.
+
 Note:
 Initial Machine Access Required: yes
 
